@@ -67,6 +67,7 @@ const SearchBar = () => {
       <Grid item xs={12} sm={4}>
         <Button
           fullWidth
+          variant="contained"
           onClick={handleSearch}
           sx={{
             backgroundColor: ColorCode.Dodger_Blue,
